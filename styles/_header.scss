@@ -60,3 +60,14 @@ header {
     }
   }
 }
+
+@media(max-width: 700px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left, .middle {
+    margin-bottom: 10px;
+  }
+}

@@ -3,43 +3,71 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vercel Homepage UI Clone</title>
+    <title>UI Clone Homepage Vercel</title>
 
     <link rel="stylesheet" href="styles/styles.css" />
 
     <!-- Load 'Inter' from Google Fonts CDN -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
   </head>
   <body>
     <div id="wrapper">
       <header>
         <h1 class="left">
-          <img src="assets/logo.svg" alt="Logo" />
+          <a href="https://vercel.com/" target="_blank" rel="noopener noreferrer">
+            <img src="assets/images/logo.svg" alt="Logo" />
+          </a>          
         </h1>
 
         <nav class="middle">
           <ul>
             <li><a href="#">Solutions</a></li>
             <li><a href="#">Resources</a></li>
-            <li><a href="#">Pricing</a></li>
+            <li><a href="https://vercel.com/pricing" target="_blank" rel="noopener noreferrer">Pricing</a></li>
+            <!-- <li><a href="#">Pricing</a></li> -->
           </ul>
         </nav>
 
         <div class="right">
           <a class="conf">
-            <img src="assets/special-button.svg" alt="Special Conference" />
+            <img src="assets/images/special-button.svg" alt="Special Conference" />
             <span>Special Conf</span>
           </a>
 
           <!-- https://getavataaars.com/ -->
-          <img class="avatar" src="assets/avatar.svg" alt="Avatar" />
+          <img class="avatar" src="assets/images/avatar.svg" alt="Avatar" />
         </div>
       </header>
 
-      <footer>Explore the Vercel way</footer>
+      <main>
+        <h1>
+          <span>Develop.</span>
+          <span>Preview.</span>
+          <span>Ship.</span>
+        </h1>
+
+        <div class="buttons">
+          <button><a href="https://vercel.com/#get-started" target="_blank" rel="noopener noreferrer">Start Deploying</a>
+          </button>
+          <button class="outlined">
+            <a href="https://vercel.com/contact/sales" target="_blank" rel="noopener noreferrer">Get a Demo</a>
+          </button>
+        </div>
+
+        <h2>
+          Vercel combines the best developer experience with an obsessive focus on end-user performance.
+          Their platform enables frontend teams to do their best work.
+        </h2>
+      </main>
+
+      <footer>
+        <p class="origin">Explore the Vercel way</p>
+        
+        <div class="plei">
+          <p>Repositório <a href="https://github.com/Pleiterson/ui-clone-vercel-rocketseat" target="_blank" rel="noopener noreferrer">Github</a> deste projeto</p>
+          <p>Desenvolvido por <a href="https://pleiterson.vercel.app" target="_blank" rel="noopener noreferrer">Pleiterson Amorim</a></p>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
