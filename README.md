@@ -25,10 +25,10 @@ UI focado na animação da página. Não contém header e footer, apenas a parte
 
 Código produzido durante o vídeo "Recriando homepage da Vercel" do canal no YouTube da [Rocketseat](https://www.youtube.com/channel/UCSfwM5u0Kce6Cce8_S72olg).
 
-- A responsividade foi dada como desafio, e alguns elementos ficaram idênticos a página real da Vercel.<br>
+- A responsividade foi dada como desafio, e alguns elementos ficaram idênticos a página real da Vercel.<br><br>
 
 - [Link do vídeo](https://www.youtube.com/watch?v=204ewU7NRO0)
-- [Projeto desenvolvido](https://clone-instagram.vercel.app/)
+- [Projeto desenvolvido](https://uiclone-vercel.vercel.app/)
 
 <p align="center">
   <img src="./assets/readme/projeto.gif" title="UI Clone Vercel">
@@ -47,14 +47,16 @@ Caso não tenha uma chave SSH de sua máquina no HitHub, use o clone comum:
 ```bash
 https://github.com/rocketseat-content/youtube-clone-vercel-homepage.git
 ```
+<br><br>
+
 - [x] Fonte utilizada: [Inter](https://fonts.google.com/specimen/Inter?query=inter) do Google Fonts;
-- [x] Extensão necessária para compilar os códigos .scss no vscode: Live Sass Compiler
+- [x] Extensão necessária para compilar os códigos .scss no vscode: <b>Live Sass Compiler</b>
 
 <h3>👨‍💻 Tecnologias utilizadas</h3>
 
 - [x] [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML)
 - [x] [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [x] [SCSS]()<br>
+- [x] [SASS - SCSS](https://sass-lang.com/documentation/syntax)<br>
 
 <!--License session-->
 <h3>📝 Licença</h3>
